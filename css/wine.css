@@ -1,0 +1,322 @@
+html, body {
+
+   
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+ }
+ 
+ 
+ .img_home{
+    background-image:url("../images/wine2.jpg");
+ }
+ .img_home1 {
+    background-image:url("../images/ra2fdp1suuwlgucm2tjfog.jpg");
+ }
+ .logoshape-2 {
+    border: darkred solid;
+    border-width: 10px;
+}
+.logoshape-3 {
+    border: black solid;
+    border-width: 10px;
+}
+ 
+ .img_beer{
+    background:red;
+ }
+ 
+ html, body, header, section, h1, h2, h3, p, a ,img, button, input, textarea, footer, ul, li {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ .header{   
+     width:99%;
+     height: auto;
+     position: relative;
+ }
+ 
+ .header nav {
+     display: flex;
+     padding: 2% 6%;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ nav img{
+     width: 100px;
+ }
+ 
+ .nav-links {
+     flex: 1;
+     text-align: right;
+ }
+ 
+ .nav-links ul li {
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+     position: relative;
+ }
+ 
+ .nav-links ul li a {
+     color: red;
+     text-decoration: none;
+     font-size: 25px;
+ }
+ .nav-links ul li::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+    border-bottom: #f44336 solid;
+}
+.nav-links ul li:hover::after {
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+    border-bottom: #f44336 solid;
+    
+}
+
+.nav-links ul li:active {
+    
+    border-bottom: #f44336 solid;
+    
+}
+
+ 
+ .content{
+ 
+    width:90%;
+    height: 100vh;
+    position:relative;
+    display:grid;
+    border:1px solid none;
+    
+    margin: 0 auto;
+ }
+ .content_wrap{
+
+    width:1100px;
+    height:100vh;
+    margin:0 auto;
+    border:1px dotted none;
+
+ }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px 20px;
+  
+  color: #444;
+}
+
+.box {
+    
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  
+  font-size: 150%;
+
+width:200px;
+height: 300px;
+box-shadow: 0px 10px 16px 5px rgba(0,0,0,0.1);
+border:1px #f3f3f3;
+}
+
+
+.card-image {
+    
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-text{
+
+    padding: 20px;
+}
+
+.car-8 {
+    background-image: url('../images/paesano.jpg'); 
+    
+}
+.car-9 {
+    background-image: url('../images/Vinology.jpg'); 
+    
+}
+.car-10 {
+    background-image: url('../images/knights.jpg'); 
+    
+}
+.car-11 {
+    background-image: url('../images/theearle.JPG'); 
+    
+}
+.car-12 {
+    background-image: url('../images/grotto.jpg'); 
+    
+}
+.car-13 {
+    background-image: url('../images/aventura.jpg'); 
+    
+}
+.car-19 {
+    background-image: url('../images/york.jpg'); 
+    
+}.car-20 {
+    background-image: url('../images/spencer.jpg'); 
+    
+}
+.car-21 {
+    background-image: url('../images/Taste.jpg'); 
+    
+}
+.car-22 {
+    background-image: url('../images/zola.jpg'); 
+    
+}
+.car-23 {
+    background-image: url('../images/charleys.JPG'); 
+    grid-column: 10/span 1;
+}
+.car-24 {
+    background-image: url('../images/cantina.jpg'); 
+    grid-column: 10/span 1;
+}
+.car-14 {
+    background-image: url('../images/Ricks_American_Cafe.jpg'); 
+}
+.car-15 {
+    background-image: url('../images/scorekeepers.jpg'); 
+}
+.car-16 {
+    background-image: url('../images/LIVE.jpg'); 
+}
+
+
+.box:hover{
+
+    
+    transform: scale(1.05);
+    /*animation: move 3s ease infinite;*/
+
+}
+.box:active{
+
+    transform: scale(0.9);
+    background-color: white;
+
+}
+
+
+
+.content .text-box{
+    margin-top:5em;
+    text-align: center;
+    color:white;
+}
+ 
+.text-box h1 {
+    font-size: 60px;
+}
+ 
+.text-box p {
+     
+    font-size: 25px;
+}
+.footer{
+    background-color: grey;
+    padding: 20px 0;
+  }
+  
+  .footer  {
+      padding-bottom: 40px;
+      color: #4b4c4b
+  }
+  .footer .social {
+      text-align: center;
+      font-size: 24px;
+      color: inherit;
+      border: 1px solid #ccc;
+      width: 40px;
+      height: 40px;
+      line-height: 38px;
+      display: inline-block;
+      border-radius: 50%;
+      margin: 10px;
+      opacity: 0.75;
+  }
+  .footer .social a:hover{
+      opacity: 0.9;
+  
+  }
+  
+  .footer ul{
+      margin-top: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 18px;
+      line-height: 1.6px;
+      margin-bottom: 0;
+  }
+  
+   .footercontainer {
+      max-width: 1990px;
+      margin: auto;
+   }
+   .footerrow{
+      display: flex;
+      flex-wrap: wrap;
+   }
+  .footer-col{
+      width:25%;
+      padding: 0 15px;
+  }
+  .footer-col h4{
+      font-size: 18px;
+      color: white;
+      text-transform: capitalize;
+      margin-bottom: 15px;
+      font-weight: 500;
+  }
+
+@media screen and (min-width: 480px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) {
+   
+    .wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+    .wrapper{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+ 
